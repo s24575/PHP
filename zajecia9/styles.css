@@ -1,0 +1,54 @@
+.bell {
+  display: inline-block;
+  position: relative;
+  background-color: #eee;
+  width: 150px;
+  height: 212px;
+  text-align: center;
+}
+.bell img {
+  border-radius: 8px;
+  width: 150px;
+  height: 212px;
+}
+.bellnumbers {
+  font-size:24px;
+  width:36px;
+  line-height: 36px;
+  text-align: center;
+  color:#fff;
+  background-color:gray;
+  z-index: 2;
+  position: absolute;
+}
+
+.health {
+  border-radius: 3px 8px 3px 3px;
+  left: 114px;
+}
+
+.damage {
+  border-radius: 3px 3px 3px 8px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.water {
+  background-color:blue;
+}
+
+.fire {
+  background-color:red;
+}
+
+.psychic {
+  background-color:pink;
+}
+
+.leaf {
+  background-color:green;
+}
+
+.electric {
+  background-color:yellow;
+}
